@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Northbound Web Studio – Websites and web apps that load fast and convert</title>
+<meta name="description" content="Northbound is a web development studio building fast, accessible websites, online stores and web apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="Northbound home"><i></i>Northbound</a>
+    <ul id="menu">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="icon-btn" id="themeBtn" aria-label="Switch color theme" title="Switch color theme">◐</button>
+      <a class="btn primary hide-s" href="#contact">Start a project</a>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<div class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1 class="rise">Websites that load fast<span class="type" id="typed" aria-live="off">and sell.</span></h1>
+      <p class="lede rise d1">We design and build business sites, online stores and web apps in clean HTML, CSS and JavaScript, then hand you the keys. No bloated page builders, no mystery plugins.</p>
+      <div class="hero-cta rise d2">
+        <a class="btn primary" href="#contact">Get a free quote</a>
+        <a class="btn" href="#work">See our work</a>
+      </div>
+      <div class="hero-facts rise d3">
+        <span><b>120+</b> sites shipped</span>
+        <span><b>97</b> average Lighthouse score</span>
+        <span><b>4 weeks</b> typical launch</span>
+      </div>
+    </div>
+
+    <div class="studio rise d4" aria-label="Interactive style demo">
+      <div class="studio-bar"><span></span><span></span><span></span><em>brand.css</em></div>
+<pre class="code" id="code" aria-live="polite"></pre>
+      <div class="preview" id="preview">
+        <span class="tag">New this week</span>
+        <h3>Your brand, live in the browser</h3>
+        <p>Pick a color, a typeface and a corner style below and watch the code and preview update.</p>
+        <button class="pbtn" tabindex="-1">Book a demo</button>
+      </div>
+      <div class="controls">
+        <fieldset><legend>Color</legend>
+          <button class="chip" style="background:#2f4bff" data-color="#2f4bff" aria-label="Cobalt" aria-pressed="true"></button>
+          <button class="chip" style="background:#e5484d" data-color="#e5484d" aria-label="Red" aria-pressed="false"></button>
+          <button class="chip" style="background:#12a594" data-color="#12a594" aria-label="Teal" aria-pressed="false"></button>
+          <button class="chip" style="background:#f5a524" data-color="#f5a524" data-ink="#101828" aria-label="Amber" aria-pressed="false"></button>
+        </fieldset>
+        <fieldset><legend>Font</legend>
+          <button class="tchip" data-font="sans" aria-pressed="true">Sans</button>
+          <button class="tchip" data-font="serif" aria-pressed="false">Serif</button>
+          <button class="tchip" data-font="mono" aria-pressed="false">Mono</button>
+        </fieldset>
+        <fieldset><legend>Corners</legend>
+          <button class="tchip" data-radius="4" aria-pressed="false">Sharp</button>
+          <button class="tchip" data-radius="12" aria-pressed="true">Soft</button>
+          <button class="tchip" data-radius="999" aria-pressed="false">Round</button>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="stack">
+  <div class="wrap">
+    <p>Built with</p>
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>Shopify</span><span>WordPress</span><span>PostgreSQL</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Everything your site needs, from one small team</h2>
+      <p>You work directly with the people writing the code. That keeps projects quick, and the results easy to maintain.</p>
+    </div>
+    <div class="bento">
+      <article class="tile t1">
+        <h3>Business websites</h3>
+        <p>Custom-designed sites that explain what you do in five seconds and make it easy to get in touch. Editable by your team, without touching code.</p>
+        <ul><li>Responsive design</li><li>Content editing</li><li>Local SEO</li><li>Analytics</li></ul>
+      </article>
+      <article class="tile t2">
+        <h3>Landing pages</h3>
+        <p>One focused page for a campaign, tested on real phones.</p>
+        <ul><li>A/B ready</li><li>Under 1 s load</li></ul>
+      </article>
+      <article class="tile t3">
+        <h3>Online stores</h3>
+        <p>Shopify and custom carts with fast checkout, inventory sync and payments set up.</p>
+        <ul><li>Shopify</li><li>Stripe</li><li>Razorpay</li></ul>
+      </article>
+      <article class="tile t4">
+        <h3>Web apps</h3>
+        <p>Dashboards, booking tools and customer portals built with React and Node.</p>
+        <ul><li>React</li><li>APIs</li><li>Auth</li></ul>
+      </article>
+      <article class="tile t5">
+        <h3>Care plans</h3>
+        <p>Hosting, backups, security updates and small edits each month, so nothing goes stale.</p>
+        <ul><li>Uptime checks</li><li>Monthly edits</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>How a project runs</h2>
+      <p>Four stages, with a review at the end of each. You always know what happens next.</p>
+    </div>
+    <div class="process-grid">
+      <ol class="steps">
+        <li><h3>Discovery call</h3><p>We learn about your customers, your goals and what the current site gets wrong. You get a fixed quote within two days.</p><span class="wk">Week 0</span></li>
+        <li><h3>Design</h3><p>Wireframes first, then full-colour designs for desktop and mobile. You comment right on the prototype.</p><span class="wk">Weeks 1–2</span></li>
+        <li><h3>Build</h3><p>We code it, connect forms and payments, and test across browsers and screen readers. You see a live staging link every few days.</p><span class="wk">Weeks 2–3</span></li>
+        <li><h3>Launch and hand-off</h3><p>We go live, watch the first week of traffic, and train your team. All code and accounts are yours.</p><span class="wk">Week 4</span></li>
+      </ol>
+      <aside class="perf" id="perf">
+        <h3>What "fast" looks like</h3>
+        <p>Typical Lighthouse results for a site we launch. Scroll to this card and the scores fill in.</p>
+        <div class="gauges">
+          <div class="gauge"><svg viewBox="0 0 84 84" role="img" aria-label="Performance 98"><circle class="bgc" cx="42" cy="42" r="36"/><circle class="fg" cx="42" cy="42" r="36" data-score="98"/><text x="42" y="50">98</text></svg><small>Performance</small></div>
+          <div class="gauge"><svg viewBox="0 0 84 84" role="img" aria-label="Accessibility 100"><circle class="bgc" cx="42" cy="42" r="36"/><circle class="fg" cx="42" cy="42" r="36" data-score="100"/><text x="42" y="50">100</text></svg><small>Accessibility</small></div>
+          <div class="gauge"><svg viewBox="0 0 84 84" role="img" aria-label="Best practices 100"><circle class="bgc" cx="42" cy="42" r="36"/><circle class="fg" cx="42" cy="42" r="36" data-score="100"/><text x="42" y="50">100</text></svg><small>Best practice</small></div>
+          <div class="gauge"><svg viewBox="0 0 84 84" role="img" aria-label="SEO 96"><circle class="bgc" cx="42" cy="42" r="36"/><circle class="fg" cx="42" cy="42" r="36" data-score="96"/><text x="42" y="50">96</text></svg><small>SEO</small></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Recent projects</h2>
+      <p>A few sites we have built for clients. Filter by the kind of project you have in mind.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button data-filter="all" aria-pressed="true">All</button>
+      <button data-filter="business" aria-pressed="false">Business</button>
+      <button data-filter="store" aria-pressed="false">Stores</button>
+      <button data-filter="app" aria-pressed="false">Web apps</button>
+    </div>
+    <div class="work-grid">
+      <article class="case c1" data-cat="business"><div class="shot"><div class="bar" style="width:40%"></div><div class="hero-b">Harbor &amp; Hale Law</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Harbor &amp; Hale</h3><p>Law firm site with practice-area pages and consultation booking.</p><div class="res">+62% enquiries in 3 months</div></div></article>
+      <article class="case c2" data-cat="store"><div class="shot"><div class="bar" style="width:30%"></div><div class="hero-b">Greenleaf Tea Co.</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Greenleaf Tea</h3><p>Subscription tea store on Shopify with a custom blend builder.</p><div class="res">2.1× average order value</div></div></article>
+      <article class="case c3" data-cat="app"><div class="shot"><div class="bar" style="width:50%"></div><div class="hero-b">Clinic Scheduler</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Clinic Scheduler</h3><p>Appointment portal for a 6-doctor clinic, with SMS reminders.</p><div class="res">No-shows down by 38%</div></div></article>
+      <article class="case c4" data-cat="business"><div class="shot"><div class="bar" style="width:35%"></div><div class="hero-b">Ember Bakery</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Ember Bakery</h3><p>Menu, catering enquiry form and Google Maps set-up for a neighbourhood bakery.</p><div class="res">Loads in 0.8 s on 4G</div></div></article>
+      <article class="case c5" data-cat="store"><div class="shot"><div class="bar" style="width:45%"></div><div class="hero-b">Trailhead Gear</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Trailhead Gear</h3><p>Custom store with size guides, stock alerts and Razorpay checkout.</p><div class="res">Cart abandonment down 24%</div></div></article>
+      <article class="case c6" data-cat="app"><div class="shot"><div class="bar" style="width:25%"></div><div class="hero-b">Fleet Dashboard</div><div class="row"><div></div><div></div><div></div></div></div><div class="case-body"><h3>Fleet Dashboard</h3><p>Live vehicle tracking and reports for a logistics company.</p><div class="res">Reports in seconds, not hours</div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Fixed prices, no surprises</h2>
+      <p>Every package includes design, development, testing and launch. Prices are starting points; we quote exactly after a call.</p>
+    </div>
+    <div class="plans">
+      <div class="plan">
+        <h3>Launch</h3>
+        <div class="price">₹49,000<small> one-time</small></div>
+        <p class="for">A clear, professional site for a small business or freelancer.</p>
+        <ul><li>Up to 5 pages</li><li>Mobile-first design</li><li>Contact form</li><li>Basic SEO set-up</li><li>2 rounds of revisions</li></ul>
+        <a class="btn" href="#contact" data-plan="Launch">Choose Launch</a>
+      </div>
+      <div class="plan pop">
+        <span class="badge">Most popular</span>
+        <h3>Grow</h3>
+        <div class="price">₹1,20,000<small> one-time</small></div>
+        <p class="for">For companies that need more pages, a blog and things that convert.</p>
+        <ul><li>Up to 15 pages</li><li>Custom design system</li><li>Blog or CMS you can edit</li><li>Analytics and conversion tracking</li><li>3 months of free care</li></ul>
+        <a class="btn" href="#contact" data-plan="Grow">Choose Grow</a>
+      </div>
+      <div class="plan">
+        <h3>Scale</h3>
+        <div class="price">Custom<small> quote</small></div>
+        <p class="for">Online stores, web apps and anything with logins or payments.</p>
+        <ul><li>Custom features and APIs</li><li>User accounts</li><li>Payment integration</li><li>Load and security testing</li><li>Priority support</li></ul>
+        <a class="btn" href="#contact" data-plan="Scale">Talk to us</a>
+      </div>
+    </div>
+    <p class="note">Prices shown in Indian rupees, excluding GST.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <div class="sec-head" style="margin-bottom:30px"><h2>Questions we hear a lot</h2></div>
+      <blockquote>
+        <p>They explained every choice in plain language, and the site went live a week early.</p>
+        <footer>Meera Nair, owner of Greenleaf Tea Co.</footer>
+      </blockquote>
+    </div>
+    <div>
+      <details open><summary>How long does a website take?</summary><p>Most sites launch in three to five weeks. Stores and web apps take longer, and we give you a dated schedule before we start.</p></details>
+      <details><summary>Will I own the website?</summary><p>Yes. On the final payment you get the code, the design files and the hosting and domain accounts, all in your name.</p></details>
+      <details><summary>Can I edit the content myself?</summary><p>Yes. We set up an editor for text and images, then run a short training session so your team can update pages on their own.</p></details>
+      <details><summary>Do you help after launch?</summary><p>We offer monthly care plans covering hosting, backups, security updates and small changes. You can also come back for new features whenever you need them.</p></details>
+      <details><summary>How do payments work?</summary><p>40% to start, 30% when the design is approved and 30% at launch. Everything is written into the quote.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="contact">
+      <div class="side">
+        <h2>Tell us about your project</h2>
+        <p>Share a few details and we will reply within one working day with questions or a first estimate.</p>
+        <p style="margin-top:28px">Prefer email? <a href="mailto:hello@northbound.example">hello@northbound.example</a></p>
+      </div>
+      <form id="form" novalidate>
+        <div class="two">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Asha Verma" required><div class="err" id="e-name"></div></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="asha@company.com" required><div class="err" id="e-email"></div></div>
+        </div>
+        <div class="field"><label for="type">What do you need?</label>
+          <select id="type" name="type"><option>Business website</option><option>Landing page</option><option>Online store</option><option>Web app</option><option>Not sure yet</option></select>
+        </div>
+        <div class="field"><label for="msg">About the project</label><textarea id="msg" name="msg" placeholder="What does your business do, and what should the site help you achieve?" required></textarea><div class="err" id="e-msg"></div></div>
+        <button class="btn sun" type="submit">Send project details</button>
+        <div id="result" role="status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div><a class="logo" href="#top"><i></i>Northbound</a><p style="margin-top:10px">© <span id="yr"></span> Northbound Web Studio. All rights reserved.</p></div>
+    <nav aria-label="Footer"><a href="#services">Services</a><a href="#work">Work</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
